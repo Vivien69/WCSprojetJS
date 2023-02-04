@@ -70,7 +70,6 @@ function getData(url = 'api/argonaute') {
 getData();
 
 
-
 const sendingForm = document.getElementById('memberForm');
 const message = document.getElementById('message');
 
