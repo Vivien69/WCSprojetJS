@@ -55,7 +55,7 @@ label {
 }
 
 .new-member-item {
-  background-color:#F9F9F9;
+  background-color:rgb(225, 253, 225);
 }
 
 .member-list {
@@ -89,6 +89,10 @@ label {
   animation: fadeIn 1s;
 }
 
+input {
+  padding:0.5em;
+}
+button 
 .disappear {
   animation: fadeOut 2s;
 }
@@ -100,6 +104,33 @@ label {
   0% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+/*DEBUT PAGINATION */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination li{
+  list-style: none;
+  
+}
+.pagination .active{
+  background-color:#F76C6C;
+  pointer-events: none;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a:hover {
+  background-color: #EEE;
+}
+
+/* FIN PAGINATION */
 
 /* LOADING ICONE CSS */
 @keyframes loading-spinner {
@@ -125,6 +156,8 @@ label {
   display: inline-block;
   overflow: hidden;
   background: #ffffff;
+  justify-self:center;
+  grid-column: 2/3;
 }
 .loading-spinner {
   width: 100%;

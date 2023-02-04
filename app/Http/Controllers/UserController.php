@@ -14,7 +14,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        $users = User::latest()->get();
+        $users = User::latest()->paginate(12);
         return $users;
     }
 
@@ -41,7 +41,7 @@ class UserController extends Controller
         ],[
             'name.required' => 'Un nom est requis',
             'name.unique' => 'Le nom est déja pris',
-            'name.min' => 'Le nom doit faire au moin 2 caractères'
+            'name.min' => 'Le nom doit faire au moins 2 caractères'
         ]
     );
  

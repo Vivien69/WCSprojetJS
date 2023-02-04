@@ -32,14 +32,20 @@
         
         <!-- Member list -->
         <h2>Membres de l'équipage</h2>
-        <div class='number-member'>Il y a <span id='number-member'></span> membres</div>
+        <div class='number-member'>Il y a <span id='number-member'></span> membres pour l'aventure</div>
         <section class="member-list" id="member-list">
           <div class="loading-spinner-rolling">
             <div class="loading-spinner"><div>
           </div>
-            
-            
         </section>
+
+        <!-- Pagination -->
+        <nav>
+          <ul class="pagination">
+            
+          </ul>
+        </nav>
+
       </main>
       
       <footer>
