@@ -89,10 +89,6 @@ label {
   animation: fadeIn 1s;
 }
 
-input {
-  padding:0.5em;
-}
-button 
 .disappear {
   animation: fadeOut 2s;
 } 
