@@ -8,6 +8,7 @@ Voici mon projet pour intégrer la formation "Formation développeur web et mobi
 - Lister les argonautes et mettre à jour la liste a chaque ajout dynamiquement<br />
 - Compteur de membres<br />
 - Légère mise en page CSS pour les liste des membres sur 3 colonnes<br />
+- Ajout de la pagination
 
 <h2>Technologies utilisées</h2>
 - Laravel<br />
